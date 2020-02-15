@@ -6,6 +6,8 @@ import { connect } from 'react-redux';
 import { ACTION_IS_LOGIN, ACTION_LOGOUT } from '../../action';
 import { searchPlanet } from '../../apiRequest';
 class SearchDashboard extends Component {
+
+    
     constructor(props) {
         super(props)
         this.state = {
