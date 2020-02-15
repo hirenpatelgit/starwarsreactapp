@@ -1,0 +1,70 @@
+.ContainerDiv{
+    text-align: center !important;
+    margin-top: 20%;
+}
+.ContainerRow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.TextBoxDesign{
+   width: 80%;
+   outline: none;
+   border: 1px solid #b3b3b3;
+   border-radius: 20px !important;
+   /* margin-bottom: 20px; */
+   padding: 5px;
+}
+
+.login-form-div {
+    height: 380px;
+    border: 1px gray solid;
+    margin-top: 40px;
+    box-shadow: 2px 2px 1px #E6E6E6;
+    text-align: center;
+}
+
+.login-form-title-section {
+    height: 55px;
+    background-color: black;
+    color: #E7DB6F !important;
+    border-bottom: gray 1px solid;
+    margin-bottom: 35px;
+}
+
+.login-form-label-title {
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.login-form-text-field-section {
+    margin-top: 10px;
+}
+
+
+.login-form-submit-button {
+    width: 80%;
+    height: 45px;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+    background-color: #E7DB6F;
+    color: black;
+    font-size: 15px;
+}
+
+.login-form-submit-button:focus {
+    outline: none;
+}
+
+@media (max-width:768px) {
+    .TextBoxDesign{
+        width: 80%;
+     }
+}
