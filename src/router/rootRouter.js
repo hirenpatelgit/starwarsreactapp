@@ -48,7 +48,7 @@ class RootRouter extends Component {
 
     render() {
         return (
-            <Router>
+            <Router basename={`${process.env.PUBLIC_URL}/`}>
                 <div>
                     <Route path={'/'}>
                         <Redirect to={this.checkIfLogin()} />
